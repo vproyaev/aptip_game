@@ -1,0 +1,83 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="593" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyMethodParametersInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="pycord" />
+            <item index="1" class="java.lang.String" itemvalue="discord" />
+            <item index="2" class="java.lang.String" itemvalue="dotenv" />
+            <item index="3" class="java.lang.String" itemvalue="bs4" />
+            <item index="4" class="java.lang.String" itemvalue="PyNaCl" />
+            <item index="5" class="java.lang.String" itemvalue="lxml" />
+            <item index="6" class="java.lang.String" itemvalue="youtube-dl" />
+            <item index="7" class="java.lang.String" itemvalue="py-cord" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+          <option value="E731" />
+          <option value="E712" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N803" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+          <option value="next" />
+          <option value="help" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.decode" />
+          <option value="bytes.emoji_id" />
+          <option value="str.key" />
+          <option value="modules.core.models.core_guild.CoreGuild.ticket_categories" />
+          <option value="modules.ticket_phrases.models.ticket_category.TicketCategory.ticket_sub_categories" />
+          <option value="modules.core.models.core_guild.CoreGuild.*" />
+          <option value="modules.ticket_phrases.models.ticket_sub_category.TicketSubCategory.*" />
+          <option value="modules.ticket_phrases.models.ticket_phrase.TicketPhrase.*" />
+          <option value="modules.ticket_phrases.models.ticket_reaction.TicketReaction.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnusedLocalInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TaskProblemsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>
